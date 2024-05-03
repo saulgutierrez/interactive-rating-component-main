@@ -82,7 +82,7 @@ window.addEventListener("load", () => {
     const ratingCard = document.querySelector(".card-1");
     const thankYouState = document.querySelector(".card-2");
 
-    // Showing thankYou component
+    // Showing thankYou component based on the alter background color
     if (component1.style.backgroundColor == "rgb(251, 116, 19)") {
         rating.innerHTML = "You selected 1 out of 5";
         ratingCard.style.display = "none";

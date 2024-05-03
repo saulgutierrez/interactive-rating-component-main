@@ -61,7 +61,6 @@ main section:nth-child(1) ul {
     display: flex;
     list-style: none;
     position: relative;
-    display: flex;
     width: 100%;
     justify-content: space-between;
 }
